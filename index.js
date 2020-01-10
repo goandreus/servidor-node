@@ -14,7 +14,11 @@ const root = {cliente: () => {
         "id": 12122212,
         "nombre": "andres",
         "apellido": "chavez",
-        "empresa": "everis"
+        "empresa": "everis",
+        "emails": [
+            {email: "correo@correo.com"},
+            {email: "correo@empresa.com"}
+        ]
     }
 }};
 
