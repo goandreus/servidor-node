@@ -9,7 +9,14 @@ app.get('/',(req, res)=> {
 });
 
 //resolver
-const root = {hola: () => "Hola Mundo"};
+const root = {cliente: () => {
+    return {
+        "id": 12122212,
+        "nombre": "andres",
+        "apellido": "chavez",
+        "empresa": "everis"
+    }
+}};
 
 app.use('/graphql', graphqlHTTP({
     schema,

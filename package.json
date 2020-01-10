@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
-  "author": "",
+  "author": "Andres Chavez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
